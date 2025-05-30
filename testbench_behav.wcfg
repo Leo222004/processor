@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="125001fs"></ZoomEndTime>
+      <Cursor1Time time="125fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject type="logic" fp_name="/testbench/sel_fpga">
+      <obj_property name="ElementShortName">sel_fpga</obj_property>
+      <obj_property name="ObjectShortName">sel_fpga</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/en_fpga">
+      <obj_property name="ElementShortName">en_fpga</obj_property>
+      <obj_property name="ObjectShortName">en_fpga</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/pc">
+      <obj_property name="ElementShortName">pc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/flags">
+      <obj_property name="ElementShortName">flags[1:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/result">
+      <obj_property name="ElementShortName">result[3:0]</obj_property>
+      <obj_property name="ObjectShortName">result[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/ram_1/memory">
+      <obj_property name="ElementShortName">memory[0:15][3:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:15][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/dut/ram_1/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/dut/ram_1/w_en">
+      <obj_property name="ElementShortName">w_en</obj_property>
+      <obj_property name="ObjectShortName">w_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/ram_1/raddr1">
+      <obj_property name="ElementShortName">raddr1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/ram_1/raddr2">
+      <obj_property name="ElementShortName">raddr2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/ram_1/waddr">
+      <obj_property name="ElementShortName">waddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/ram_1/wdata">
+      <obj_property name="ElementShortName">wdata[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/ram_1/rdata1">
+      <obj_property name="ElementShortName">rdata1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/ram_1/rdata2">
+      <obj_property name="ElementShortName">rdata2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2[3:0]</obj_property>
+   </wvobject>
+</wave_config>
